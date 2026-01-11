@@ -10,7 +10,7 @@ while keepChecking:
         print("Goodbye!")
         break
     
-    # Initialize scoring (MUST be indented inside while loop!)
+    # Initialize scoring
     score = 0
     feedback = []
     
