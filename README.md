@@ -13,14 +13,14 @@ A tool that analyzes password strength based on length, character variety, and c
 
 - **Skills Demonstrated:** String manipulation, conditional logic, user input validation, for loops
 - **Security Concepts:** Password policies, strength metrics, user feedback
-- **Status:** ✅ Complete
+- **Status:**  Complete
 
 ### 2. [Advanced Password Strength Checker](./02-advanced-password-checker)
 A comprehensive password analyzer with 6 security checks and smart scoring system.
 
 - **Skills Demonstrated:** While/for loops, string processing, pattern detection, user interaction, break/continue
 - **Security Concepts:** Password policies, weak pattern detection, sequential analysis, multi-criteria scoring
-- **Status:** ✅ Complete
+- **Status:**  Complete
 
 *More projects coming soon as I progress through the curriculum...*
 
