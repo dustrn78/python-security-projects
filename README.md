@@ -22,6 +22,18 @@ A comprehensive password analyzer with 6 security checks and smart scoring syste
 - **Security Concepts:** Password policies, weak pattern detection, sequential analysis, multi-criteria scoring
 - **Status:**  Complete
 
+### 3. Password Analyzer Library
+**Status:** Complete ✅  
+**Location:** `03-password-analyzer-library/`
+
+A reusable Python library with 9 functions for password strength analysis. Can be imported into other projects.
+
+**Key Features:**
+- Modular function design
+- Comprehensive password validation
+- Returns detailed analysis dictionary
+- Scores passwords 0-10
+- Checks for common weak passwords
 *More projects coming soon as I progress through the curriculum...*
 
 ## Learning Objectives
