@@ -4,8 +4,6 @@ def check_length(password, min_length=8):
         return True
     return False
 
-# print(f"{check_length(password)}")
-
 # number 2    
 def has_digit(password):
     hasDigit = False
@@ -14,7 +12,6 @@ def has_digit(password):
             hasDigit = True
             return hasDigit
     return False        
-# print(f"{has_digit(password)}")
 
 # fx 3            
 def has_uppercase(password):
@@ -24,7 +21,6 @@ def has_uppercase(password):
             hasUpper = True
             return hasUpper
     return False
-# print(f"{has_uppercase(password)}")
 
 # fx 4
 def has_lowercase(password):
@@ -35,8 +31,6 @@ def has_lowercase(password):
             return hasLower
     return False
         
-# print(f"{has_lowercase(password)}")
-
 # fx 5
 def has_special_char(password):
     hasSpecial = False
@@ -47,8 +41,6 @@ def has_special_char(password):
             return hasSpecial
     return False
             
-# print(f"{has_special_char(password)}")
-
 # fx 6
 def is_common_password(password):
     commonPass = ["password", "123456", "qwerty", "admin", "letmein", "welcome", "monkey", "dragon", "master", "sunshine"]
@@ -56,8 +48,6 @@ def is_common_password(password):
         if common in password.lower():
             return True
     return False
-
-# print(f"{is_common_password(password)}")
 
 # fx 7
 def calculate_strength_score(password):
@@ -89,10 +79,8 @@ def calculate_strength_score(password):
     else:
         totalScore += 1 
     return totalScore
-# print(f"{calculate_strength_score(password)}")
 
 # fx 8
-
 def get_strength_rating(score):
     if score < 4:
         return "Weak"
@@ -106,7 +94,6 @@ def get_strength_rating(score):
         return "Superior!!"
     
 # fx 9
-
 def analyze_password(password):
     # this is the main function that combines everything and returns a
     # dictionary
@@ -158,6 +145,3 @@ def analyze_password(password):
         "passed_checks": passed,
         "failed_checks": failed
     }
-# print(f"Your password strength rating is {get_strength_rating(calculate_strength_score(password))}")
-# all the test print statements should not be here since they are for
-# testing and debugging and a Library doesn't have test statements
